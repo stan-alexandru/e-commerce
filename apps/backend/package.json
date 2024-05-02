@@ -1,0 +1,8 @@
+{
+  "name": "e-commerce-backend",
+  "description": "The backend of the ecommerce website",
+  "version": "0.0.1",
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}
