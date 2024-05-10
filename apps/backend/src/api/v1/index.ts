@@ -1,9 +1,7 @@
-import express from 'express';
+import express, { type Application } from 'express';
+import productRouter from './product/product.router.js';
 
-const app = express();
-
-app.get('/', (_req, res) => {
-	res.send('Hello');
-});
+const app: Application = express();
+app.use('/product', productRouter);
 
 export default app;
